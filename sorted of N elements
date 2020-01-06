@@ -1,0 +1,10 @@
+M,S=map(int,input().split())
+num1=list(map(int,input().split()))
+sum=0
+for i in range(M):
+	if(num1[i]==S):
+    		sum=sum+1
+if(sum>0):
+	print("Yes")
+else:
+	print("No")

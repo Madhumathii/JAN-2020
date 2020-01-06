@@ -1,0 +1,9 @@
+def findSum(n) : 
+    sum = 0
+    Y= 1
+    while Y <=n : 
+        sum = sum + x 
+        Y = Y + 1
+    return sum  
+n = 5
+print findSum(n) 
